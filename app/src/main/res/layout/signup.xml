@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gold"
+    tools:context=".signup">
+
+    <LinearLayout
+        android:id="@+id/sign_neton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.14"
+        android:orientation="vertical"
+        android:background="@color/gold">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="To Create a new Account"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Signup"
+            android:textStyle="bold|italic"
+            android:textSize="40dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/grey">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username*"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter username"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password*"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="********"
+            android:textColorHint="@color/black"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Re-Password*"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="********"
+            android:textColorHint="@color/black"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email*"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="user@123.com"
+            android:textColorHint="@color/black"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone_No*"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="+91"
+            android:textColorHint="@color/black"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:orientation="vertical"
+        android:background="@color/gold">
+        <Button
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Create"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/grey"
+           android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have account?"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/log1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login here!"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_netoff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ic_baseline_net" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Network Error"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please check your Internet Connection"
+                android:textColor="@color/black"
+                android:layout_marginTop="32dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
